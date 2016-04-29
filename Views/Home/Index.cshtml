@@ -1,0 +1,25 @@
+﻿@using MultiTest.Models
+@using Page = MultiTest.Models.Page
+@model IEnumerable<object>
+
+@{
+    List<Student> Students = Model.ToList()[0] as List<Student>;
+    Page forside = Model.ToList()[1] as Page;
+    ViewBag.Title = "Index";
+}
+
+<h1>@forside.Title</h1>
+<p>@forside.Text</p>
+
+<ul class="list-group">
+    
+@foreach (var s in Students)
+{
+    <a href="@Url.Action("StudentInfo", "Home", s)">
+        <li class="list-group-item">@s.Name - @s.Age år</li>
+    </a>
+}
+</ul>
+
+<h2>Index</h2>
+

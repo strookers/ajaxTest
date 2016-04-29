@@ -1,0 +1,25 @@
+﻿@using MultiTest.Models
+@using Page = MultiTest.Models.Page
+@model IEnumerable<object>
+
+@{
+    Student Student = Model.ToList()[0] as Student;
+    Page sInfo = Model.ToList()[1] as Page;
+    ViewBag.Title = "StudentInfo";
+}
+
+<h2>@sInfo.Title</h2>
+<p>@sInfo.Text</p>
+
+<div>
+    <h4>Student</h4>
+    <hr />
+        <ul class="list-group">
+            <li class="list-group-item">@Student.Name</li>
+            <li class="list-group-item">@Student.Age år</li>
+        </ul>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

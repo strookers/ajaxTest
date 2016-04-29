@@ -1,0 +1,218 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div id="testarea"></div>
+<div class="plane">
+    <div class="cockpit">
+        <h1>Vælg sæder</h1><div id="preload"><h2></h2></div>
+    </div>
+
+    <div class="exit exit--front fuselage">
+
+    </div>
+    <select id="personselect">
+        <option value="0">Antal billeter</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+    <ol class="cabin fuselage">
+
+        <li class="row row--A">
+            <ol class="seats" type="A">
+                <li class="seat">
+                    <input type="checkbox" id="A-1" class="seatCheck" rowlength="5" rownumber="A" seatnumber="1" name="seat">
+                    <label for="A-1">A-1</label>
+                </li>
+                <li class="seat">
+                    <input type="checkbox" id="A-2" class="seatCheck" rowlength="5" rownumber="A" seatnumber="2" name="seat">
+                    <label for="A-2">A-2</label>
+                </li>
+                <li class="seat">
+                    <input type="checkbox" id="A-3" class="seatCheck" rowlength="5" rownumber="A" seatnumber="3" name="seat">
+                    <label for="A-3">A-3</label>
+                </li>
+                <li class="seat">
+                    <input type="checkbox" id="A-4" class="seatCheck" rowlength="5" rownumber="A" seatnumber="4" name="seat">
+                    <label for="A-4">A-4</label>
+                </li>
+                <li class="seat">
+                    <input type="checkbox" id="A-5" class="seatCheck" rowlength="5" rownumber="A" seatnumber="5" name="seat">
+                    <label for="A-5">A-5</label>
+                </li>
+            </ol>
+        </li>
+        <li class="row row--B">
+            <ol class="seats" type="A">
+                <li class="seat">
+                    <input type="checkbox" id="B-1" class="seatCheck" rowlength="5" rownumber="B" seatnumber="1" name="seat">
+                    <label for="B-1">B-1</label>
+                </li>
+                <li class="seat">
+                    <input type="checkbox" id="B-2" class="seatCheck" rowlength="5" rownumber="B" seatnumber="2" name="seat">
+                    <label for="B-2">B-2</label>
+                </li>
+                <li class="seat">
+                    <input type="checkbox" id="B-3" class="seatCheck" rowlength="5" rownumber="B" seatnumber="3" name="seat">
+                    <label for="B-3">B-3</label>
+                </li>
+                <li class="seat">
+                    <input type="checkbox" id="B-4" class="seatCheck" rowlength="5" rownumber="B" seatnumber="4" name="seat">
+                    <label for="B-4">B-4</label>
+                </li>
+                <li class="seat">
+                    <input type="checkbox" id="B-5" class="seatCheck" rowlength="5" rownumber="B" seatnumber="5" name="seat">
+                    <label for="B-5">B-5</label>
+                </li>
+            </ol>
+        </li>
+        <li class="row row--C">
+            <ol class="seats" type="A">
+                <li class="seat">
+                    <input type="checkbox" id="C-1" class="seatCheck" rowlength="5" rownumber="C" seatnumber="1" name="seat">
+                    <label for="C-1">C-1</label>
+                </li>
+                <li class="seat">
+                    <input type="checkbox" id="C-2" class="seatCheck" rowlength="5" rownumber="C" seatnumber="2" name="seat">
+                    <label for="C-2">C-2</label>
+                </li>
+                <li class="seat">
+                    <input type="checkbox" id="C-3" class="seatCheck" rowlength="5" rownumber="C" seatnumber="3" name="seat">
+                    <label for="C-3">C-3</label>
+                </li>
+                <li class="seat">
+                    <input type="checkbox" id="C-4" class="seatCheck" rowlength="5" rownumber="C" seatnumber="4" name="seat">
+                    <label for="C-4">C-4</label>
+                </li>
+                <li class="seat">
+                    <input type="checkbox" id="C-5" class="seatCheck" rowlength="5" rownumber="C" seatnumber="5" name="seat">
+                    <label for="C-5">C-5</label>
+                </li>
+            </ol>
+        </li>
+        <li class="row row--D">
+            <ol class="seats" type="A">
+                <li class="seat">
+                    <input type="checkbox" id="D-1" class="seatCheck" rowlength="5" rownumber="D" seatnumber="1" name="seat">
+                    <label for="D-1">D-1</label>
+                </li>
+                <li class="seat">
+                    <input type="checkbox" id="D-2" class="seatCheck" rowlength="5" rownumber="D" seatnumber="2" name="seat">
+                    <label for="D-2">D-2</label>
+                </li>
+                <li class="seat">
+                    <input type="checkbox" id="D-3" class="seatCheck" rowlength="5" rownumber="D" seatnumber="3" name="seat">
+                    <label for="D-3">D-3</label>
+                </li>
+                <li class="seat">
+                    <input type="checkbox" id="D-4" class="seatCheck" rowlength="5" rownumber="D" seatnumber="4" name="seat">
+                    <label for="D-4">D-4</label>
+                </li>
+                <li class="seat">
+                    <input type="checkbox" id="D-5" class="seatCheck" rowlength="5" rownumber="D" seatnumber="5" name="seat">
+                    <label for="D-5">D-5</label>
+                </li>
+            </ol>
+        </li>
+        <li class="row row--E">
+            <ol class="seats" type="A">
+                <li class="seat">
+                    <input type="checkbox" id="E-1" class="seatCheck" rowlength="5" rownumber="E" seatnumber="1" name="seat">
+                    <label for="E-1">E-1</label>
+                </li>
+                <li class="seat">
+                    <input type="checkbox" id="E-2" class="seatCheck" rowlength="5" rownumber="E" seatnumber="2" name="seat">
+                    <label for="E-2">E-2</label>
+                </li>
+                <li class="seat">
+                    <input type="checkbox" id="E-3" class="seatCheck" rowlength="5" rownumber="E" seatnumber="3" name="seat">
+                    <label for="E-3">E-3</label>
+                </li>
+                <li class="seat">
+                    <input type="checkbox" id="E-4" class="seatCheck" rowlength="5" rownumber="E" seatnumber="4" name="seat">
+                    <label for="E-4">E-4</label>
+                </li>
+                <li class="seat">
+                    <input type="checkbox" id="E-5" class="seatCheck" rowlength="5" rownumber="E" seatnumber="5" name="seat">
+                    <label for="E-5">E-5</label>
+                </li>
+            </ol>
+        </li>
+    </ol>
+    <div class="exit exit--back fuselage">
+
+    </div>
+</div>
+<script>
+    var limit = 0;
+
+    //sætter limit efter select boxen på dens id
+    $("#personselect").on('change', function () {
+        limit = parseInt($("#personselect").val());
+        $(".seatCheck").prop("checked", false);
+    });
+
+    //Vælger flere ledige sæder på en gang og tjekker om der er plads
+    $('.seatCheck').click(function () {
+
+        var rowNumber = $(this).attr('rowNumber');
+        var seatNumber = parseInt($(this).attr('seatNumber'));
+        var rowLength = parseInt($(this).attr('rowLength'));
+
+        if (limit + seatNumber <= rowLength + 1) {
+            $(".seatCheck").prop("checked", false);
+            var next = seatNumber - 1;
+            for (var i = 0; i < limit; i++) {
+                next++;
+                $("#" + rowNumber + "-" + next).prop("checked", true);
+
+                if ($("#" + rowNumber + "-" + next).is(':disabled')) {
+                    $(".seatCheck").prop("checked", false);
+                    console.log("sæde " + rowNumber + "-" + next + " er reserveret! vælg igen");
+                    i = limit;
+                }
+                console.log("#" + rowNumber + "-" + next);
+                $("div#preload h2").html("der er plads")
+            }
+
+        } else if(limit + seatNumber > rowLength + 1 && !$(this).prop('checked')){
+          $("div#preload h2").html("hmmmmm")
+            $(this).prop("checked", true);
+
+
+        }else {
+            console.log("der er ikke plads");
+            $("div#preload h2").html("der er ikke plads")
+            $(this).prop("checked", false);
+        }
+    });
+
+</script>
+
+<script>
+    $("input[type=checkbox]").click(function () {
+
+        var val = $(this).attr("id");
+        var arr = [];
+        $(".seatCheck:checked").each(function () {
+            arr.push($(this).attr("id"));
+        });
+        $.ajax({
+            url: "/AjaxTest/Test",
+            datatype: "text",
+            data: { 'value': arr },
+            type: "POST",
+            success: function (data) {
+                $('#testarea').html(data);
+            },
+            error: function () {
+                $("#testarea").html("ERROR");
+            }
+        });
+    });
+</script>
